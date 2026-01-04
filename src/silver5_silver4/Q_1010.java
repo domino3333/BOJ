@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Q_1010 {
+
+
     static int[][] dp = new int[30][30];
 
     public static void main(String[] args) throws IOException {
@@ -32,9 +34,6 @@ public class Q_1010 {
             dp[n][r] = combination(n-1,r-1) + combination(n-1,r);
             return dp[n][r];
         }
-
-
-
     }
 
 

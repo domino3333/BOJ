@@ -3,9 +3,8 @@ package silver5_silver4;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
-public class Q_9095 {
+public class Q_9095_dp {
 
     public static int[] dp = new int[12];
     public static void main(String[] args) throws IOException {

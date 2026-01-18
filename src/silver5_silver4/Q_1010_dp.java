@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Q_1010 {
+public class Q_1010_dp {
 
 
     static int[][] dp = new int[30][30];

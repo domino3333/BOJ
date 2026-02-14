@@ -12,8 +12,8 @@ public class Q_1149 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int homeCount = Integer.parseInt(br.readLine());
 
-        int[][] cost = new int[homeCount][3];
-        int[][] dp = new int[homeCount][3];
+        int[][] cost = new int[homeCount+1][3];
+        int[][] dp = new int[homeCount+1][3];
 
         for (int i = 1; i <= homeCount; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());

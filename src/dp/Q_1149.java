@@ -5,13 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+
+//https://www.acmicpc.net/problem/1149
 public class Q_1149 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int homeCount = Integer.parseInt(br.readLine());
 
-        int[][] cost = new int[homeCount + 1][3];
-        int[][] dp = new int[homeCount + 1][3];
+        int[][] cost = new int[homeCount][3];
+        int[][] dp = new int[homeCount][3];
 
         for (int i = 1; i <= homeCount; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
